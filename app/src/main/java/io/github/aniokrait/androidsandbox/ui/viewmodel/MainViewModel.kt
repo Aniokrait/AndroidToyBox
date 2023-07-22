@@ -1,7 +1,8 @@
 package io.github.aniokrait.androidsandbox.ui.viewmodel
 
 import dagger.hilt.android.lifecycle.HiltViewModel
+import javax.inject.Inject
 
 @HiltViewModel
-class MainViewModel: BaseViewModel() {
+class MainViewModel @Inject constructor(): BaseViewModel() {
 }
