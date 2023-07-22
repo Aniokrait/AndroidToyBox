@@ -30,9 +30,11 @@ fun MyNavigationCompose(modifier: Modifier = Modifier) {
             val isLoadCompleted = remember { mutableStateOf(false) }
             TransitSourceScreen(
                 transit = {
+                    //navController.navigateではなく、BooleanのMutableStateを渡す
                     vm.fetchSomeData(isLoadCompleted)
                 }
             )
+            //isLoadCompletedがtrueになったら画面遷移を行う。
             LaunchedEffect(isLoadCompleted.value) {
                 if (isLoadCompleted.value) {
                     navController.navigate("transitTarget")

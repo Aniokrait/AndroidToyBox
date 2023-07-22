@@ -20,6 +20,7 @@ class TransitSourceViewModel @Inject constructor(): BaseViewModel() {
             delay(5000)
             //終わったら遷移
             withContext(Dispatchers.Main) {
+                //navController.navigateを実行するのではなく、MutableStateを更新する
                 isLoadCompleted.value = true
             }
         }
