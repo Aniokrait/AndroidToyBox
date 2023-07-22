@@ -1,5 +1,6 @@
 package io.github.aniokrait.androidsandbox.ui.viewmodel
 
+import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -12,14 +13,14 @@ import javax.inject.Inject
 @HiltViewModel
 class TransitSourceViewModel @Inject constructor(): BaseViewModel() {
     fun fetchSomeData(
-        navigate: () -> Unit
+        isLoadCompleted: MutableState<Boolean>
     ) {
         viewModelScope.launch(Dispatchers.IO) {
             //ここでIO処理
             delay(5000)
             //終わったら遷移
             withContext(Dispatchers.Main) {
-                navigate()
+                isLoadCompleted.value = true
             }
         }
     }

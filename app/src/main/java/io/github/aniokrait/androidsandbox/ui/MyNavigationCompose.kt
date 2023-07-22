@@ -1,6 +1,9 @@
 package io.github.aniokrait.androidsandbox.ui
 
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.compose.NavHost
@@ -24,11 +27,17 @@ fun MyNavigationCompose(modifier: Modifier = Modifier) {
     ) {
         composable("transitSource") {
             val vm: TransitSourceViewModel = hiltViewModel()
+            val isLoadCompleted = remember { mutableStateOf(false) }
             TransitSourceScreen(
                 transit = {
-                    vm.fetchSomeData(navigate = {navController.navigate("transitTarget")})
+                    vm.fetchSomeData(isLoadCompleted)
                 }
             )
+            LaunchedEffect(isLoadCompleted.value) {
+                if (isLoadCompleted.value) {
+                    navController.navigate("transitTarget")
+                }
+            }
         }
         composable("transitTarget") {
             val vm: TransitTargetViewModel = hiltViewModel()
