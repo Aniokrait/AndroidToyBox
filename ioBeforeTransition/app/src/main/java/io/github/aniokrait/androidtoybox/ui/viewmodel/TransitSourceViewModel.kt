@@ -1,7 +1,6 @@
-package io.github.aniokrait.androidsandbox.ui.viewmodel
+package io.github.aniokrait.androidtoybox.ui.viewmodel
 
 import androidx.compose.runtime.MutableState
-import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers

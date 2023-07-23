@@ -1,23 +1,18 @@
-package io.github.aniokrait.androidsandbox.ui
+package io.github.aniokrait.androidtoybox.ui
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import io.github.aniokrait.androidsandbox.ui.screen.TransitSourceScreen
-import io.github.aniokrait.androidsandbox.ui.screen.TransitDestScreen
-import io.github.aniokrait.androidsandbox.ui.viewmodel.TransitSourceViewModel
-import io.github.aniokrait.androidsandbox.ui.viewmodel.TransitTargetViewModel
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
+import io.github.aniokrait.androidtoybox.ui.screen.TransitSourceScreen
+import io.github.aniokrait.androidtoybox.ui.screen.TransitDestScreen
+import io.github.aniokrait.androidtoybox.ui.viewmodel.TransitSourceViewModel
+import io.github.aniokrait.androidtoybox.ui.viewmodel.TransitTargetViewModel
 
 @Composable
 fun MyNavigationCompose(modifier: Modifier = Modifier) {

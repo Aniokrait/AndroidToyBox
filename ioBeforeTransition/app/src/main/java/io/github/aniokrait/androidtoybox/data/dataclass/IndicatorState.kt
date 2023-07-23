@@ -1,4 +1,4 @@
-package io.github.aniokrait.androidsandbox.data.dataclass
+package io.github.aniokrait.androidtoybox.data.dataclass
 
 data class IndicatorState(
     val isLoading: Boolean,

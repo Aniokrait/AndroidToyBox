@@ -1,4 +1,4 @@
-package io.github.aniokrait.androidsandbox.ui.theme
+package io.github.aniokrait.androidtoybox.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

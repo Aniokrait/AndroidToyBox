@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace = "io.github.aniokrait.androidsandbox"
+    namespace = "io.github.aniokrait.androidtoybox"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "io.github.aniokrait.androidsandbox"
+        applicationId = "io.github.aniokrait.androidtoybox"
         minSdk = 24
         targetSdk = 33
         versionCode = 1

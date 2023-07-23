@@ -1,4 +1,4 @@
-package io.github.aniokrait.androidsandbox
+package io.github.aniokrait.androidtoybox
 
 import org.junit.Test
 

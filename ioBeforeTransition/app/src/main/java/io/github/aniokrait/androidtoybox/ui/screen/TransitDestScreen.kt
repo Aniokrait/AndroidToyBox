@@ -1,8 +1,7 @@
-package io.github.aniokrait.androidsandbox.ui.screen
+package io.github.aniokrait.androidtoybox.ui.screen
 
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 
 @Composable
 fun TransitDestScreen(

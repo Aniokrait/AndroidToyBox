@@ -1,10 +1,10 @@
-package io.github.aniokrait.androidsandbox.ui.viewmodel
+package io.github.aniokrait.androidtoybox.ui.viewmodel
 
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
-import io.github.aniokrait.androidsandbox.data.dataclass.IndicatorState
+import io.github.aniokrait.androidtoybox.data.dataclass.IndicatorState
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

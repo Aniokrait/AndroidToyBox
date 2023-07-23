@@ -9,61 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6ed96db-e167-4468-87e4-145b536d8fb8" name="Changes" comment="add error handling">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/.idea/deploymentTargetDropDown.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/.idea/kotlinc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/proguard-rules.pro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/io/github/aniokrait/androidsandbox/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/androidTest/java/io/github/aniokrait/androidsandbox/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/github/aniokrait/androidsandbox/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/main/java/io/github/aniokrait/androidsandbox/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/github/aniokrait/androidsandbox/MyApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/main/java/io/github/aniokrait/androidsandbox/MyApplication.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/github/aniokrait/androidsandbox/data/dataclass/IndicatorState.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/main/java/io/github/aniokrait/androidsandbox/data/dataclass/IndicatorState.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/github/aniokrait/androidsandbox/ui/MyNavigationCompose.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/main/java/io/github/aniokrait/androidsandbox/ui/MyNavigationCompose.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/github/aniokrait/androidsandbox/ui/screen/TransitDestScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/main/java/io/github/aniokrait/androidsandbox/ui/screen/TransitDestScreen.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/github/aniokrait/androidsandbox/ui/screen/TransitSourceScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/main/java/io/github/aniokrait/androidsandbox/ui/screen/TransitSourceScreen.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/github/aniokrait/androidsandbox/ui/theme/Color.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/main/java/io/github/aniokrait/androidsandbox/ui/theme/Color.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/github/aniokrait/androidsandbox/ui/theme/Theme.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/main/java/io/github/aniokrait/androidsandbox/ui/theme/Theme.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/github/aniokrait/androidsandbox/ui/theme/Type.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/main/java/io/github/aniokrait/androidsandbox/ui/theme/Type.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/github/aniokrait/androidsandbox/ui/viewmodel/BaseViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/main/java/io/github/aniokrait/androidsandbox/ui/viewmodel/BaseViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/github/aniokrait/androidsandbox/ui/viewmodel/MainViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/main/java/io/github/aniokrait/androidsandbox/ui/viewmodel/MainViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/github/aniokrait/androidsandbox/ui/viewmodel/TransitSourceViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/main/java/io/github/aniokrait/androidsandbox/ui/viewmodel/TransitSourceViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/github/aniokrait/androidsandbox/ui/viewmodel/TransitTargetViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/main/java/io/github/aniokrait/androidsandbox/ui/viewmodel/TransitTargetViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/backup_rules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/io/github/aniokrait/androidsandbox/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/app/src/test/java/io/github/aniokrait/androidsandbox/ExampleUnitTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ioBeforeTransition/settings.gradle" afterDir="false" />
-    </list>
+    <list default="true" id="b6ed96db-e167-4468-87e4-145b536d8fb8" name="Changes" comment="move directory" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -252,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690093585854</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="move directory">
+      <created>1690098015883</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1690098015883</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -275,7 +228,8 @@
     <MESSAGE value="add comment" />
     <MESSAGE value="modify showIndicator from remember to rememberSaveable" />
     <MESSAGE value="add error handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="add error handling" />
+    <MESSAGE value="move directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="move directory" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
