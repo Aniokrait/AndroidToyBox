@@ -2,8 +2,10 @@ package io.github.aniokrait.androidtoybox.ui
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.compose.NavHost
@@ -25,7 +27,9 @@ fun MyNavigationCompose(modifier: Modifier = Modifier) {
             val vm: TransitSourceViewModel = hiltViewModel()
             //Activityが破棄されても保持し続けるためにrememberではなくrememberSaveableで定義
             val isLoadCompleted = rememberSaveable { mutableStateOf(false) }
+            var showIndicator = rememberSaveable { mutableStateOf(false) }
             TransitSourceScreen(
+                showIndicator = showIndicator,
                 transit = {
                     //navController.navigateではなく、BooleanのMutableStateを渡す
                     vm.fetchSomeData(isLoadCompleted)
@@ -34,7 +38,9 @@ fun MyNavigationCompose(modifier: Modifier = Modifier) {
             //isLoadCompletedがtrueになったら画面遷移を行う。
             LaunchedEffect(isLoadCompleted.value) {
                 if (isLoadCompleted.value) {
+                    showIndicator.value = false
                     navController.navigate("transitTarget")
+                    isLoadCompleted.value = false
                 }
             }
         }
