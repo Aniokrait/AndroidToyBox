@@ -61,6 +61,10 @@ dependencies {
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3")
 
+    //collectAsStateWithLifecycleのために追加
+    val lifecycleVersion = "2.6.1"
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:$lifecycleVersion")
+
     val nav_version = "2.5.3"
     implementation("androidx.navigation:navigation-compose:$nav_version")
     implementation("androidx.hilt:hilt-navigation-compose:1.0.0")
